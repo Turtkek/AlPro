@@ -1,0 +1,637 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: "Poppins", sans-serif;
+}
+
+header {
+  width: 100%;
+  height: 100vh;
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Image/background-image.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.container {
+  width: 100%;
+  margin-inline: auto;
+}
+
+.navbar {
+  width: 100%;
+  padding: 10px 0 10px;
+}
+
+.navwrapper {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.navigation > li {
+  list-style-type: none;
+  margin-left: 60px;
+  margin-top: -20px;
+}
+.navlink {
+  text-decoration: none;
+  color: white;
+  border-radius: 2px;
+}
+
+.navlink:hover {
+  background-color: rgb(255, 255, 255, 0.9);
+  color: black;
+  transition: all ease-in-out 0.25;
+}
+
+header .text {
+  position: absolute;
+  top: 42%;
+  right: 50%;
+  transform: translate(50%, -50%);
+}
+
+header .text h1 {
+  color: rgb(255, 255, 255, 0.5);
+  font-weight: 600;
+  font-size: 70px;
+  letter-spacing: 32px;
+}
+
+.container-2 {
+  width: 100%;
+  height: 100vh;
+  display: flex;
+  flex-direction: row;
+  background-image: url(./Image/pexels-sergeich-12862230.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+.me {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  position: absolute;
+  top: 100%;
+}
+
+.judul-1 {
+  margin-inline: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 70px;
+  color: white;
+}
+
+.pjls {
+  margin-inline: auto;
+  margin-left: 50%;
+  margin-right: 20px;
+  display: flex;
+  margin-top: 100px;
+  text-align: justify;
+  text-transform: capitalize;
+  font-size: 22px;
+  color: white;
+}
+
+.profil {
+  width: 300px;
+  height: 300px;
+  object-fit: cover;
+  border-radius: 100%;
+  border: 5px solid white;
+  position: absolute;
+  top: 70%;
+  right: 50%;
+  transform: translate(-100%, -50%);
+}
+
+.container-3 {
+  width: 100%;
+  height: 210vh;
+  background-image: url(./Image/pexels-adrien-olichon-2387793.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.my .judul-2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 70px;
+  color: white;
+}
+.wrapper {
+  overflow: hidden;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+  height: auto;
+}
+
+.active-1 {
+  width: 700px;
+  display: flex;
+  background-color: rgb(228, 224, 224);
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 10px;
+  margin-top: 80px;
+  align-items: center;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.4);
+}
+
+.active-1 > p {
+  display: flex;
+  margin-top: 20px;
+  font-size: 20px;
+  align-items: center;
+  justify-content: center;
+  text-align: justify;
+}
+.capai {
+  justify-content: center;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.4);
+}
+
+.judul-3 {
+  display: flex;
+  margin-top: 80px;
+  flex-direction: row;
+  justify-content: center;
+  font-size: 70px;
+  color: white;
+}
+
+.slides {
+  width: 100%;
+  position: relative;
+  display: flex;
+  justify-content: center;
+}
+.slides .panah {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.slides .panah .prev,
+.slides .panah .next {
+  cursor: pointer;
+  padding: 16px;
+  font-weight: bold;
+  font-size: 30px;
+  color: white;
+  background: rgba(0, 0, 0, 0.2);
+  user-select: none;
+  transition: 0.6s ease;
+  z-index: 1;
+}
+
+.slides .panah .prev:hover,
+.slides .panah .next:hover {
+  background: rgba(0, 0, 0, 1);
+}
+.slides .slide {
+  display: none;
+}
+
+.slides .slide img {
+  width: 100%;
+  height: 500px;
+  border-radius: 20px;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+.video{
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5%;
+}
+
+.v{
+  border: 5px solid white;
+  border-radius: 2px;
+}
+
+/* The footer is fixed to the bottom of the page */
+
+footer{
+	position: fixed;
+	bottom: 0;
+}
+
+@media (max-height:800px){
+	footer { position: static; }
+	header { padding-top:40px; }
+}
+
+
+.footer-distributed{
+	background-color: #2c292f;
+	box-sizing: border-box;
+	width: 100%;
+	text-align: left;
+	font: bold 16px sans-serif;
+	padding: 50px 50px 60px 50px;
+	margin-top: 80px;
+}
+
+.footer-distributed .footer-left,
+.footer-distributed .footer-center,
+.footer-distributed .footer-right{
+	display: inline-block;
+	vertical-align: top;
+}
+
+/* Footer left */
+
+.footer-distributed .footer-left{
+	width: 30%;
+}
+
+.footer-distributed h3{
+	color:  #ffffff;
+	font: normal 36px 'Cookie', cursive;
+	margin: 0;
+}
+
+/* The company logo */
+
+.footer-distributed .footer-left img{
+	width: 30%;
+}
+
+.footer-distributed h3 span{
+	color:  #e0ac1c;
+}
+
+/* Footer links */
+
+.footer-distributed .footer-links{
+	color:  #ffffff;
+	margin: 20px 0 12px;
+}
+
+.footer-distributed .footer-links a{
+	display:inline-block;
+	line-height: 1.8;
+	text-decoration: none;
+	color:  inherit;
+}
+
+.footer-distributed .footer-company-name{
+	color:  #8f9296;
+	font-size: 14px;
+	font-weight: normal;
+	margin: 0;
+}
+
+/* Footer Center */
+
+.footer-distributed .footer-center{
+	width: 35%;
+}
+
+
+.footer-distributed .footer-center i{
+	background-color:  #33383b;
+	color: #ffffff;
+	font-size: 25px;
+	width: 38px;
+	height: 38px;
+	border-radius: 50%;
+	text-align: center;
+	line-height: 42px;
+	margin: 10px 15px;
+	vertical-align: middle;
+}
+
+.footer-distributed .footer-center i.fa-envelope{
+	font-size: 17px;
+	line-height: 38px;
+}
+
+.footer-distributed .footer-center p{
+	display: inline-block;
+	color: #ffffff;
+	vertical-align: middle;
+	margin:0;
+}
+
+.footer-distributed .footer-center p span{
+	display:block;
+	font-weight: normal;
+	font-size:14px;
+	line-height:2;
+}
+
+.footer-distributed .footer-center p a{
+	color:  #ffffff;
+	text-decoration: none;;
+}
+
+
+/* Footer Right */
+
+.footer-distributed .footer-right{
+	width: 30%;
+}
+
+.footer-distributed .footer-company-about{
+	line-height: 20px;
+	color:  #92999f;
+	font-size: 13px;
+	font-weight: normal;
+	margin: 0;
+}
+
+.footer-distributed .footer-company-about span{
+	display: block;
+	color:  #ffffff;
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.footer-distributed .footer-icons{
+	margin-top: 25px;
+}
+
+.footer-distributed .footer-icons a{
+	display: inline-block;
+	width: 35px;
+	height: 35px;
+	cursor: pointer;
+	background-color:  #33383b;
+	border-radius: 2px;
+
+	font-size: 20px;
+	color: #ffffff;
+	text-align: center;
+	line-height: 35px;
+
+	margin-right: 3px;
+	margin-bottom: 5px;
+}
+
+/* Here is the code for Responsive Footer */
+/* You can remove below code if you don't want Footer to be responsive */
+
+
+@media (max-width: 880px) {
+
+	.footer-distributed .footer-left,
+	.footer-distributed .footer-center,
+	.footer-distributed .footer-right{
+		display: block;
+		width: 100%;
+		margin-bottom: 40px;
+		text-align: center;
+	}
+
+	.footer-distributed .footer-center i{
+		margin-left: 0;
+	}
+
+}
+
+@keyframes fade {
+  from {
+    opacity: 0.3;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+/* Responsive styles */
+@media (max-width: 768px) {
+  .navwrapper {
+    flex-direction: column;
+  }
+
+  .navigation {
+    font-size: 12px;
+    position: absolute;
+    transform: translate(-18%, -40%);
+  }
+
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+    url("./Image/background-image.png");
+    background-size: 155%;
+    background-position: center;
+    background-color: black;
+  }
+
+  header .text {
+    position: absolute;
+    top: 45%;
+    right: 47%;
+    transform: translate(50%, -50%);
+  }
+
+  header .text h1 {
+    font-size: 50px;
+    letter-spacing: 20px;
+  }
+
+  .judul-1 {
+    font-size: 50px;
+    justify-content: center;
+  }
+
+  .pjls {
+    width: 100%;
+    font-size: 13px;
+    margin-left: none;
+    margin-right: none;
+    position: absolute;
+    top: 420%;
+    right: 47%;
+    transform: translate(75%, -50%);
+  }
+  .profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    top: 200%;
+    right: -65%;
+    z-index: 1;
+  }
+
+  .container-3{
+    height: 50vh;
+  }
+
+  .my .judul-2 {
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    top: 205%;
+    right: 47%;
+    transform: translate(48%, -50%);
+  }
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  .active-1 {
+    width: 500px;
+  }
+
+  .judul-3{
+    font-size: 40px;
+  }
+  .slides .panah .prev,
+  .slides .panah .next{
+    font-size: 18px;
+    padding: 13px;
+  }
+  .slides .slide img {
+    height: 400px;
+  }
+
+}
+
+@media screen and (max-width: 600px) {
+  .navwrapper {
+    flex-direction: column;
+  }
+
+  .navigation {
+    font-size: 7.5px;
+    position: absolute;
+    transform: translate(-2%, -40%);
+    top: 1%;
+  }
+
+  .navigation > li {
+    margin-left: 40px;
+  }
+
+  header {
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)),
+      url("./Image/background-image.png");
+    background-size: 150%;
+    background-position: center;
+    background-color: black;
+  }
+
+  header .text {
+    position: absolute;
+    top: 50%;
+    right: 47%;
+    transform: translate(50%, -50%);
+  }
+
+  header .text h1 {
+    font-size: 20px;
+    letter-spacing: 20px;
+  }
+  .me {
+    display: flex;
+    flex-direction: column;
+  }
+  .judul-1 {
+    font-size: 50px;
+    justify-content: center;
+    margin-top: 10%;
+    transform: translate(30%, -50%);
+  }
+
+  .pjls {
+    width: 100%;
+    font-size: 15px;
+    margin-left: none;
+    margin-right: none;
+    position: absolute;
+    top: 470%;
+    right: 47%;
+    transform: translate(75%, -50%);
+  }
+  .profil {
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 100%;
+    border: 5px solid white;
+    position: absolute;
+    top: 200%;
+    right: -65%;
+    z-index: 1;
+  }
+
+  .container-3{
+    height: 350vh;
+  }
+
+  .my .judul-2 {
+    font-size: 40px;
+    justify-content: center;
+    /* position: absolute;
+    top: 440%;
+    right: 47%;
+    transform: translate(75%, -50%); */
+  }
+
+  .wrapper {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .active-1 {
+    width: 350px;
+  }
+
+  .slides .panah .prev,
+  .slides .panah .next{
+    font-size: 12px;
+    padding: 10px;
+  }
+  .slides .slide img {
+    height: 300px;
+  }
+}
