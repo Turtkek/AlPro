@@ -1,0 +1,605 @@
+/* TEXT */
+
+/* IMAGE 1 */
+#txt1 {
+    position: absolute;
+    width: 265px;
+    height: 24px;
+    left: 397px;
+    top: 157px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+    }
+    
+    #txt2 {
+        position: absolute;
+        width: 130px;
+        height: 24px;
+        left: 397px;
+        top: 181px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: rgba(0, 0, 0, 0.37);
+    }
+    
+    #txt3 {
+        position: absolute;
+        width: 188px;
+        height: 22px;
+        left: 503px;
+        top: 237px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        
+        color: #000000;
+    }
+    
+    #txt4 {
+        position: absolute;
+        width: 139px;
+        height: 24px;
+        left: 521px;
+        top: 267px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    #txt5 {
+    
+        position: absolute;
+        width: 208px;
+        height: 22px;
+        left: 969px;
+        top: 237px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */ 
+        color: #000000;
+        
+    }
+    
+    #txt6 {
+        position: absolute;
+        width: 154px;
+        height: 24px;
+        left: 1005px;
+        top: 267px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    /* IMAGE 2 */
+    #text1 {
+        position: absolute;
+        width: 272px;
+        height: 48px;
+        left: 422px;
+        top: 484px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    #text2 {
+        position: absolute;
+        width: 157px;
+        height: 24px;
+        left: 422px;
+        top: 527px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: rgba(0, 0, 0, 0.37);
+    }
+    
+    #text3 {
+        position: absolute;
+        width: 188px;
+        height: 22px;
+        left: 528px;
+        top: 583px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        color: #000000;
+    }
+    
+    #text4 {
+        position: absolute;
+        width: 140px;
+        height: 24px;
+        left: 546px;
+        top: 613px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;    
+    }
+    
+    #text5 {
+        position: absolute;
+        width: 208px;
+        height: 22px;
+        left: 994px;
+        top: 583px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        color: #000000;
+    }
+    
+    #text6 {
+        position: absolute;
+        width: 153px;
+        height: 24px;
+        left: 1030px;
+        top: 613px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    /* IMAGE 3 */
+    #tex1 {
+        position: absolute;
+        width: 231px;
+        height: 24px;
+        left: 416px;
+        top: 852px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    #tex2 {
+        position: absolute;
+        width: 162px;
+        height: 48px;
+        left: 416px;
+        top: 847px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: rgba(0, 0, 0, 0.37);
+    }
+    
+    #tex3 {
+        position: absolute;
+        width: 188px;
+        height: 22px;
+        left: 522px;
+        top: 932px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        color: #000000;
+    }
+    
+    #tex4 {
+        position: absolute;
+        width: 137px;
+        height: 24px;
+        left: 540px;
+        top: 962px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+    #tex5 {
+        position: absolute;
+        width: 208px;
+        height: 22px;
+        left: 988px;
+        top: 932px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 22px;
+        /* identical to box height */
+        
+        color: #000000;
+    }
+    
+    #tex6 {
+        position: absolute;
+        width: 149px;
+        height: 24px;
+        left: 1024px;
+        top: 962px;
+        
+        font-family: 'Inter';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 24px;
+        
+        color: #000000;
+    }
+    
+
+
+/* IMAGE 4 */
+#tx1 {
+    position: absolute;
+    width: 245px;
+    height: 24px;
+    left: 416px;
+    top: 1201px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+#tx2 {
+    position: absolute;
+    width: 140px;
+    height: 24px;
+    left: 416px;
+    top: 1225px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: rgba(0, 0, 0, 0.37);
+}
+
+#tx3 {
+    position: absolute;
+    width: 188px;
+    height: 22px;
+    left: 522px;
+    top: 1281px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#tx4 {
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 540px;
+    top: 1311px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000; 
+}
+
+#tx5 {
+    position: absolute;
+    width: 208px;
+    height: 22px;
+    left: 988px;
+    top: 1281px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#tx6 {
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    left: 1024px;
+    top: 1311px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+/* IMAGE 5 */
+#te1  {
+    position: absolute;
+    width: 355px;
+    height: 24px;
+    left: 441px;
+    top: 1547px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;    
+}
+
+#te2  {
+    position: absolute;
+    width: 117px;
+    height: 24px;
+    left: 441px;
+    top: 1571px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: rgba(0, 0, 0, 0.37);
+}
+
+#te3  {
+    position: absolute;
+    width: 188px;
+    height: 22px;
+    left: 547px;
+    top: 1627px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#te4  {
+    position: absolute;
+    width: 141px;
+    height: 24px;
+    left: 565px;
+    top: 1657px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;    
+}
+
+#te5  {
+    position: absolute;
+width: 208px;
+height: 22px;
+left: 1013px;
+top: 1627px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 300;
+font-size: 18px;
+line-height: 22px;
+/* identical to box height */
+
+color: #000000;
+}
+
+#te6  {
+    position: absolute;
+width: 153px;
+height: 24px;
+left: 1049px;
+top: 1657px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 20px;
+line-height: 24px;
+
+color: #000000;
+}
+
+/* IMAGE 6 */
+#tt1 {
+    position: absolute;
+    width: 270px;
+    height: 24px;
+    left: 441px;
+    top: 1926px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+#tt2 {
+    position: absolute;
+    width: 78px;
+    height: 24px;
+    left: 441px;
+    top: 1950px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: rgba(0, 0, 0, 0.37);
+}
+
+#tt3 {
+    position: absolute;
+    width: 188px;
+    height: 22px;
+    left: 547px;
+    top: 2006px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#tt4 {
+    position: absolute;
+    width: 139px;
+    height: 24px;
+    left: 565px;
+    top: 2036px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+#tt5 {
+    position: absolute;
+    width: 208px;
+    height: 22px;
+    left: 1013px;
+    top: 2006px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 22px;
+    /* identical to box height */
+    
+    color: #000000;
+}
+
+#tt6 {
+    position: absolute;
+    width: 154px;
+    height: 24px;
+    left: 1049px;
+    top: 2036px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 24px;
+    
+    color: #000000;
+}
+
+/* 
+<p id="ft1">HUBUNGI KAMI DI :</p>
+<p id="ft2">(+62) 858 - 4753 - 2112</p>
+<p id="ft3">heavyequipment@bussnies.co.id</p>
+<p id="ft4">HEAVY EQUIPMENT RENTAL</p> */
